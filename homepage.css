@@ -1,0 +1,44 @@
+body {
+	
+	background-color: #FFFFFF;
+	
+}
+
+#nav_list {
+	
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #373F51;
+}
+
+
+.nav_list_item {
+	
+	float: left;
+	
+}
+
+
+.nav_list_item a {
+	
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	
+}
+
+.nav_list_item a:hover {
+	
+	background-color: #5BBADA;
+	
+}
+
+.active {
+	
+	background-color: #3F92A9;
+	
+}
