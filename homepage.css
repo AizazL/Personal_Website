@@ -42,3 +42,50 @@ body {
 	background-color: #3F92A9;
 	
 }
+
+#main_heading {
+	
+	display:block;
+    text-align:left;
+	margin-bottom: 15px;
+
+}
+
+.heading {
+	
+	color: #373F51;
+	
+}
+
+#main_heading_line {
+
+    border-top: 2px dashed #3F92A9;
+	margin-left: 60px;
+    width: 17%;
+	
+}
+
+.footer {
+   position: fixed;
+   width: 100%;
+   background-color: #3F92A9;
+   color: white;
+   text-align: center;
+   left: 0px;
+   bottom: 0px;
+}
+
+#main_heading {
+	
+	margin-left: 60px;
+	font-size: 70px;
+	
+}
+
+.subtitle {
+	
+	margin-top: 0px;
+	margin-bottom: 25px;
+	margin-left: 60px;
+	
+}
