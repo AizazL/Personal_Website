@@ -5,11 +5,12 @@
 	<head>
 		
 		<title> Portfolio </title>
-		<link rel="stylesheet" type="text/css" href="homepage.css" />
+		<link rel="stylesheet" type="text/css" href="css/homepage.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	</head>
@@ -17,7 +18,7 @@
 	<body>
 	
 		<!-- Nav Bar -->
-		<div>
+		<div class="navbar">
 			<ul id="nav_list"> 
 				<li class="nav_list_item"> <a href="homepage.html" class="active"> Home </a> </li>
 				<li class="nav_list_item"> <a href="#placeholderPage1.html"> placeholder1 </a> </li>
@@ -35,10 +36,9 @@
 				<h1 id="main_heading" class="heading"> Hi, I'm Aizaz. </h1>	
 				<p class="subtitle"> I'm a Grade 12 high school student with 
 				a passion for business and computer science! </p>
-				<hr id="main_heading_line">
-
+				
 			</div>
-			
+			<hr id="main_heading_line">
 			
 			<br><br><br><br>
 			
@@ -80,6 +80,35 @@
 		<div class="footer">
 			<p> &nbsp </p>
 		</div>
+		
+		<script> 
+			window.sr = ScrollReveal();
+			sr.reveal('.navbar', {
+			
+				duration: 2000,
+				origin: 'bottom'
+			
+			
+			});
+			
+			sr.reveal('#main_title', {
+			
+				duration: 2000,
+				origin: 'top',
+				distance:'300px'
+			
+			});
+			
+			sr.reveal('#main_heading_line', {
+			
+				duration: 2000,
+				origin: 'right',
+				distance:'1500px',
+				delay: 250
+			
+			});
+		
+		</script>
 	</body>
 	
 	
