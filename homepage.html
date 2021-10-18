@@ -21,7 +21,7 @@
 		<div class="navbar">
 			<ul id="nav_list"> 
 				<li class="nav_list_item"> <a href="homepage.html" class="active"> Home </a> </li>
-				<li class="nav_list_item"> <a href="#placeholderPage1.html"> placeholder1 </a> </li>
+				<li class="nav_list_item"> <a href="Hackathons.html"> Hackathons </a> </li>
 				<li class="nav_list_item"> <a href="#placeholderPage2.html"> placeholder2 </a> </li>
 			</ul>	
 		</div>
@@ -50,14 +50,14 @@
 			<img src="images/myself.png" width="300px" height="auto" id="image_1" style="margin-right: 20px; margin-left: 15px; float: left;">
 			<h2 class="heading" id="animated_title"> Who am I? </h2>
 			
-			<a id="linkedin" href="https://www.linkedin.com/in/aizaz-lodhi-77a060209/"> <img src="images/linkedin.png" width="200px" height="auto" style="float:right; margin-right: 150px;"></img> </a>
+			<a class="socials" href="https://www.linkedin.com/in/aizaz-lodhi-77a060209/"> <img src="images/linkedin.png" width="200px" height="auto" style="float:right; margin-right: 150px;"></img> </a>
+			<a class="socials" href="https://www.github.com/AizazL"> <img src="images/github.png" width="200px" height="auto" style="float:right; margin-left: 75px;"></img> </a>
 
-				<div style="width: 800px" id="main_text">
+				<div style="width: 800px; font-size: 15px;" id="main_text">
 				Hello! I'm Aizaz Lodhi, a Grade 12 high school student with 
 				a passion for business and computer science! This website is a virtual portfolio
 				to showcase all of my projects! This website was coded entirely from scratch by me 
-				using CSS, HTML, and Javascript. <br><br> You may see all the code for these projects as well as
-				this website on my GitHub page @ <a href="https://github.com/AizazL">github.com/AizazL</a>.
+				using CSS, HTML, and Javascript. <br><br> Click the images on the right to visit my linkedin/github!
 
 				<br><br>
 			
@@ -130,7 +130,7 @@
 			
 			});
 		
-			sr.reveal('#linkedin', {
+			sr.reveal('.socials', {
 			
 				duration: 2000,
 				origin: 'right',
@@ -139,6 +139,7 @@
 				delay: 500
 			
 			});
+			
 			
 		</script>
 	</body>
